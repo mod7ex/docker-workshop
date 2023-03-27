@@ -1,11 +1,3 @@
 # ignore these tow items if you want to re-reun <npm i> in the container
-# /node_modules
+# node_modules
 # package-lock.json
-
-/.git
-.gitignore
-*.MD
-*.md
-.dockerignore
-docker-compose.yaml
-DockerFile

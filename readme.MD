@@ -2,7 +2,7 @@
 
 # [Good resource](https://www.youtube.com/watch?v=3c-iBn73dDE&t=4460s&ab_channel=TechWorldwithNana)
 
-<!-- https://youtu.be/3c-iBn73dDE -->
+<!-- https://youtu.be/3c-iBn73dDE?t=8848 https://www.youtube.com/watch?v=DM65_JyGxCo&ab_channel=NetworkChuck -->
 
 ## Docker images
 
@@ -20,8 +20,8 @@
 
 > remove all stopped containers `docker container prune`
 
-> `docker run -ti --rm <container>` (remove after usage)
-> ex: `docker run -ti --rm nginx bash` or `docker run -ti --rm nginx /bin/sh`
+> `docker run -it --rm <container>` (remove after usage)
+> ex: `docker run -it --rm nginx bash` or `docker run -it --rm nginx /bin/sh`
 > or `docker exec -it <container_id|container_name> bash` (-it stands for "interactive terminal") when it's running
 > or `docker exec -it <container_id|container_name> sh`
 

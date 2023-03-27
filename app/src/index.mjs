@@ -1,9 +1,9 @@
-import express from "express";
 import path from "path";
-import { fileURLToPath } from "url";
+import express from "express";
 import { dirname } from "path";
-import { MongoClient } from "mongodb";
+import { fileURLToPath } from "url";
 import bodyParser from "body-parser";
+import { MongoClient } from "mongodb";
 
 // create application/x-www-form-urlencoded parser
 const urlencodedParser = bodyParser.urlencoded({ extended: false });
@@ -20,7 +20,8 @@ const DbInit = (() => {
 
   return async () => {
     if (!db) {
-      const client = new MongoClient("mongodb://modex98:password@localhost:27017");
+      const client = new MongoClient("mongodb://modex98:password@mongodb:27017"); // inside the container
+      // const client = new MongoClient("mongodb://modex98:password@localhost:27017");
       await client.connect();
       db = client.db("user-account");
     }

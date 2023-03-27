@@ -1,6 +1,12 @@
 version: '3'
 
 services:
+  app:
+    # build: .
+    image: my_app:latest
+    ports:
+      - 3000:3000
+
   mongodb:
     image: mongo:latest
     ports:
