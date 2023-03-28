@@ -81,6 +81,10 @@ since both containers are in same network they can communicate using just contai
 
 ### Ex
 
-> `docker build -f DockerFile . -t my_app:1.0`
+> `docker build -f DockerFile . -t my_app:latest`
 
-> `docker run -d --name my_app-cn -p 3000:3000 my_app:1.0`
+> `docker run -d --name my_app-cn -p 3000:3000 my_app:latest`
+
+---
+
+# in the host volumes are located in `/var/lib/docker/volumes`

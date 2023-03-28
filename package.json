@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "docker build -f DockerFile . -t my_app:latest",
+    "compose": "docker-compose up -d"
+  }
+}
