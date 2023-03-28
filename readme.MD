@@ -2,7 +2,10 @@
 
 # [Good resource](https://www.youtube.com/watch?v=3c-iBn73dDE&t=4460s&ab_channel=TechWorldwithNana)
 
-<!-- https://youtu.be/3c-iBn73dDE?t=8848 https://www.youtube.com/watch?v=DM65_JyGxCo&ab_channel=NetworkChuck -->
+<!--
+https://youtu.be/3c-iBn73dDE?t=8848
+https://www.youtube.com/watch?v=DM65_JyGxCo&ab_channel=NetworkChuck
+-->
 
 ## Docker images
 
