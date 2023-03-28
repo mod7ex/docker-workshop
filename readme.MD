@@ -2,6 +2,8 @@
 
 # [Good resource](https://www.youtube.com/watch?v=3c-iBn73dDE&t=4460s&ab_channel=TechWorldwithNana)
 
+# [Juts a bunch of great examples](https://github.com/vulhub/vulhub/blob/master/gogs/CVE-2018-18925/docker-compose.yml)
+
 <!--
 https://youtu.be/3c-iBn73dDE?t=8848
 https://www.youtube.com/watch?v=DM65_JyGxCo&ab_channel=NetworkChuck
